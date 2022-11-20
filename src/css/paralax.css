@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital@0;1&family=Rancho&family=Rubik:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+section.navbar {
+  overflow-x: hidden;
+  background: white;
+  min-height: 100vh;
+}
+section.navbar #header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+section.navbar #header .logo {
+  color: #094b65;
+  font-size: 2em;
+  text-decoration: none;
+}
+section.navbar #header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.navbar #header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+section.navbar #header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #094b65;
+  border-radius: 20px;
+}
+section.navbar #header ul li a:hover, section.navbar #header ul li a.active {
+  background: #094b65;
+  color: white;
+}
+section.navbar .adv {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.navbar .adv .para {
+  height: 100vh;
+  width: 100vw;
+}
+section.navbar .adv .para .custom-bg img {
+  width: 100vw;
+  height: 50%;
+  pointer-events: none;
+}
+section.navbar .adv .para::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(to top, #094b65, transparent);
+  z-index: 10;
+}
+section.navbar .adv .para #forest {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(0%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.navbar .adv .para #rocks {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(0%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.navbar .adv .para #bird1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.navbar .adv .para #wate {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.navbar .adv #text {
+  position: absolute;
+  color: #094b65;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 0.55em;
+  font-family: "Rancho", cursive;
+  transform: translateY(-50%);
+}
+section.navbar .adv #text span {
+  font-size: 0.2em;
+  letter-spacing: 2px;
+}
+section.navbar .adv #btn {
+  position: absolute;
+  transform: translateY(100px);
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: whitesmoke;
+  color: #094b65;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  z-index: 999;
+}
+section.navbar .sec {
+  position: relative;
+  padding: 100px;
+  background: #094b65;
+}
+section.navbar .sec h2 {
+  font-size: 3.5em;
+  color: white;
+  margin-bottom: 10px;
+}
+section.navbar .sec p {
+  font-size: 1em;
+  color: white;
+}/*# sourceMappingURL=paralax.css.map */

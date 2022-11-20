@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&family=Rancho&family=Rubik:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+@mixin karla {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+@mixin rubik {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+@mixin rancho {
+    font-family: 'Rancho', cursive;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @include karla();
+  color: black;
+}
+
+h1,h2,h3 {
+    @include rubik();
+}
+
+$primary-color: #094b65;
